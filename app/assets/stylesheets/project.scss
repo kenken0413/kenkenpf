@@ -1,6 +1,9 @@
 h1{ font-size: 40px; }
 h2{ font-size: 24px; }
-a{ color: white; }
+a{
+  color: white;
+  text-decoration: none;
+}
 
 // header
 .header_wrapper{
@@ -80,6 +83,7 @@ h2.about{
   text-align: center;
   opacity: 0.7;
   color: white;
+  line-height: 1.5;
 }
 
 text.about{
