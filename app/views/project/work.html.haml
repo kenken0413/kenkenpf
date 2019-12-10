@@ -1,7 +1,14 @@
-.work
-  .work1
-    .image　mercari clone site
-    .link http-----
-  .work2
-    .image 
-    .link
+= render 'header'
+
+.body
+  .menu-list.work.active
+    .work1
+      = link_to "mercari clone" , "http://13.113.238.148/" , class: "work-title" 
+      .work-detail
+        =image_tag "mercari_clone.png", size: '600x400' ,alt: "no image"
+        .work-detail__text
+          %text.work 概要）プログラミング教室の最終課題としてグループで開発。開発期間28日（作業時間 約7h／d）。
+          %text.work 担当）aws/s3の本番環境のデプロイ等・トップページ（haml/scss）・ 商品出品
+          %text.work 課題）出品時の画像複数投稿機能・バリデーションメッセージ など
+
+= render 'footer'
